@@ -1472,8 +1472,8 @@ TALISMAN_DEV_CONFIG = {
 # for details
 #
 SESSION_COOKIE_HTTPONLY = True  # Prevent cookie from being read by frontend JS?
-SESSION_COOKIE_SECURE = False  # Prevent cookie from being transmitted over non-tls?
-SESSION_COOKIE_SAMESITE: Literal["None", "Lax", "Strict"] | None = "Lax"
+#SESSION_COOKIE_SECURE = False  # Prevent cookie from being transmitted over non-tls?
+#SESSION_COOKIE_SAMESITE: Literal["None", "Lax", "Strict"] | None = "Lax"
 
 # Cache static resources.
 SEND_FILE_MAX_AGE_DEFAULT = int(timedelta(days=365).total_seconds())
