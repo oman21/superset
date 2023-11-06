@@ -491,7 +491,7 @@ DEFAULT_FEATURE_FLAGS: dict[str, bool] = {
     # Allow users to enable ssh tunneling when creating a DB.
     # Users must check whether the DB engine supports SSH Tunnels
     # otherwise enabling this flag won't have any effect on the DB.
-    "SSH_TUNNELING": False,
+    "SSH_TUNNELING": True,
     "AVOID_COLORS_COLLISION": True,
     # Set to False to only allow viewing own recent activity
     # or to disallow users from viewing other users profile page
